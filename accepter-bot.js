@@ -1,9 +1,9 @@
 const TelegramBot = require("node-telegram-bot-api");
 
 // ====== CONFIG ======
-const TOKEN = "8435348850:AAGP0kpPfm1QydEcDK54kYTWR79QFXF9PyA"; 
-const ADMIN_USERNAME = "@F2DEV"; 
-const CHANNEL_INVITE_LINK = "https://t.me/+4uN7dIijlBAyMWVk"; 
+const TOKEN = "YOUR_TELEGRAM_BOT_API"; 
+const ADMIN_USERNAME = "@YOUR_ADMINS_USERNAME"; 
+const CHANNEL_INVITE_LINK = "YOUR_CHANNELS_PRIVATE_LINK"; 
 // ======================
 
 const bot = new TelegramBot(TOKEN, { polling: true });
