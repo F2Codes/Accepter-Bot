@@ -66,7 +66,7 @@ async def handle_member_update(update: Update, context: ContextTypes.DEFAULT_TYP
             "❗❗\n"
             "- Your request to join the **channel** has been approved!\n\n"
             f"Welcome, {name}! Glad to have you here 🌟\n\n"
-            "👤 Admin: @Drackol"
+            "👤 Admin: @ADMINS_USERNAME"
         )
 
         await context.bot.send_message(
