@@ -79,7 +79,7 @@ func main() {
 					"- Your request to join the *channel* has been accepted!\n\n" +
 					"Your membership is confirmed ✅\n" +
 					"Welcome, " + name + " 🌟\n\n" +
-					"👤 Admin: @Drackol"
+					"👤 Admin: @ADMINS_USERNAME"
 
 				msg := tgbotapi.NewMessage(CHANNEL_ID, welcome)
 				msg.ParseMode = "Markdown"
